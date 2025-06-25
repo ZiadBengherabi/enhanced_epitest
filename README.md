@@ -21,7 +21,13 @@ Ce projet fournit un environnement Docker personnalisé basé sur l'image [`epit
 - [Docker](https://www.docker.com/) installé sur votre machine.
 - Processeur avec une architecture X86_64 (Support ARM arrive bientôt)
 
-## Pull de l'image
+## Build de l'image (Pas nécessaire si pull avec docker pull)
+
+```sh
+docker build -t epitest_boosted .
+```
+
+## Pull de l'image (Pas nécessaire  si téléchargée  depuis le repo)
 
 ```sh
 docker pull ziad0/enhanced-epitest
